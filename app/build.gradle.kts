@@ -18,7 +18,7 @@ android {
         versionName = "1.0"
 
         // en and fr are the only supported languages
-       resourceConfigurations += listOf("en", "fr")
+        resourceConfigurations += listOf("en", "fr")
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -72,8 +72,8 @@ dependencies {
     implementation("androidx.compose.material3:material3")
 
     // Hilt
-    implementation("com.google.dagger:hilt-android:2.48.1")
-    kapt("com.google.dagger:hilt-compiler:2.48")
+    implementation("com.google.dagger:hilt-android:2.50")
+    kapt("com.google.dagger:hilt-compiler:2.50")
 
     // Firestore
     implementation("com.google.firebase:firebase-firestore-ktx")
